@@ -1,9 +1,9 @@
 import React from 'react';
 import {render, waitFor} from '@testing-library/react-native';
-import WidgetContainer from '../src/components/WidgetContainer';
-import api from '../src/services/api';
+import WidgetContainer from '../../src/components/WidgetContainer';
+import api from '../../src/services/api';
 
-jest.mock('../src/services/api');
+jest.mock('../../src/services/api');
 
 describe('Widget Container', () => {
   it('loads widgets upon mount', async () => {
